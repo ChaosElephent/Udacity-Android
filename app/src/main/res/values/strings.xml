@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Udacity Project 0</string>
+    <string name="first_botton">First Botton</string>
+    <string name="second_botton">Second Botton</string>
+    <string name="third_botton">Third Botton</string>
+    <string name="forth_botton">Forth Botton</string>
+    <string name="fifth_botton">Fifth Botton</string>
+    <string name="sixth_botton">Sixth Botton</string>
 </resources>
