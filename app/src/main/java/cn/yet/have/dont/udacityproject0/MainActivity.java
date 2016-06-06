@@ -13,33 +13,32 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onFirst(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "First Event Activated", Toast.LENGTH_SHORT);
+    public void showToast(String text) {
+        Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);
         toast.show();
+    }
+
+    public void onFirst(View view) {
+        showToast("First Event Activated");
     }
 
     public void onSecond(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Second Event Activated", Toast.LENGTH_SHORT);
-        toast.show();
+        showToast("Second Event Activated");
     }
 
     public void onThird(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Third Event Activated", Toast.LENGTH_SHORT);
-        toast.show();
+        showToast("Third Event Activated");
     }
 
     public void onForth(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Fourth Event Activated", Toast.LENGTH_SHORT);
-        toast.show();
+        showToast("Fourth Event Activated");
     }
 
     public void onFifth(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Fifth Event Activated", Toast.LENGTH_SHORT);
-        toast.show();
+        showToast("Fifth Event Activated");
     }
 
     public void onSixth(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Sixth Event Activated", Toast.LENGTH_SHORT);
-        toast.show();
+        showToast("Sixth Event Activated");
     }
 }
